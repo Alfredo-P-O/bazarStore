@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logoStore.png" alt="LogoTipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion_link navegacion__link--active" href="index.html">Tienda</a>
+        <a class="navegacion_link" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h2>Producto</h2>
+
+        <h3>Tenis Heroes</h3>
+        <div class="zapato">
+            <img class="zapato__imagen" src="img/zapato (1).jpg" alt="">
+
+            <div class="zapato__contenido">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Aliquid sequi fugit eos illum perspiciatis laborum saepe, 
+                    aspernatur atque quis non dicta ex. Soluta, quo tenetur 
+                    corrupti voluptas officiis vel fugiat.</p>
+
+                    <form class="formulario">
+                        <select class="formualario__campos">
+                            <option disabled selected>--Seleciona una Talla--</option>
+                            <option>Niño</option>
+                            <option>Joven</option>
+                            <option>Adulto</option>
+                            <input class="formualario__campos" type="number" placeholder="Indica la cantidad">
+                            <input class="formualario__submit" type="submit" value="Agregar al Carrito">
+                        </select>
+                    </form>
+            </div>
+        </div><!-- Zapato -->
+    </main>
+
+    <footer class="footer">
+        <p class="footer__parrafo">Store Bazar - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
